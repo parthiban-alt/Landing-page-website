@@ -1,4 +1,4 @@
-body,header{
+#hero,header{
     background-color: hsla(229, 100%, 59%, 0.768);
 }
 .btn-watch-video {
@@ -14,5 +14,14 @@ body,header{
   }
   .btn-get-started:hover {
     color:red; /* Slightly lighter gray on hover */
+  }
+  .read-more{
+    border:2px solid rgb(0, 217, 255);
+    padding:10px 25px;
+    border-radius:8px;
+    text-decoration:none;
+  }
+  #why-us{
+    background-color:rgb(240, 240, 240);
   }
   
