@@ -1,12 +1,18 @@
 body,header{
-    background-color: rgba(98, 48, 255, 1);
+    background-color: hsla(229, 100%, 59%, 0.768);
 }
-.heroh1{
-    font-family: italic;
-    font-size :60px;
-    margin: 50px;
-}
-.herop{
-    font-family: italic;
-
-}
+.btn-watch-video {
+    color: white; /* Dark gray color for better readability on white background */
+    text-decoration: none
+  }
+  .btn-watch-video:hover {
+    color:red; /* Slightly lighter gray on hover */
+  }
+.btn-get-started {
+    color: white; /* Dark gray color for better readability on white background */
+    text-decoration: none
+  }
+  .btn-get-started:hover {
+    color:red; /* Slightly lighter gray on hover */
+  }
+  
