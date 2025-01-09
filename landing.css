@@ -2,18 +2,18 @@
     background-color: hsla(229, 100%, 59%, 0.768);
 }
 .btn-watch-video {
-    color: white; /* Dark gray color for better readability on white background */
+    color: white; 
     text-decoration: none
   }
   .btn-watch-video:hover {
-    color:red; /* Slightly lighter gray on hover */
+    color:red;
   }
 .btn-get-started {
-    color: white; /* Dark gray color for better readability on white background */
+    color: white; 
     text-decoration: none
   }
   .btn-get-started:hover {
-    color:red; /* Slightly lighter gray on hover */
+    color:red; 
   }
   .read-more{
     border:2px solid rgb(0, 217, 255);
@@ -33,7 +33,7 @@
   }
   #call-to-action{
     background-color: hsla(229, 100%, 59%, 0.768);
-    height: 485px;
+    height: 500px;
     display:flex;
     justify-content: center;
     border:2px solid white;
@@ -44,4 +44,8 @@
     border-radius:30px;
     text-decoration:none;
   }
+
+  
+  
+  
   

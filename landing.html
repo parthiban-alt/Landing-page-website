@@ -25,7 +25,31 @@
                     <li ><a  class="nav-link text-light" href="#about">About</a></li>
                     <li class="nav-item"><a  class="nav-link text-light" href="#services">Services</a></li>
                     <li class="nav-item "><a  class="nav-link text-light" href="#team" >Team</a></li>   
-                    <li class="nav-item"><a  class="nav-link text-light" href="#dropdown" >Dropdown</a></li>
+                      <div class="dropdown">
+                        <button class="btn  dropdown-toggle text-light" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                          Dropdown 
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                          <li><a class="dropdown-item" href="#">Dropdown</a></li>
+                          <div class="btn-group dropstart">
+                            <button type="button" class="btn btn-light dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                              Dropstart
+                            </button>
+                            <ul class="dropdown-menu">
+                              <li><a class="dropdown-item" href="#">Dropdown 1</a></li>
+                          <li><a class="dropdown-item" href="#">Dropdown 2</a></li>
+                          <li><a class="dropdown-item" href="#">Dropdown 3</a></li>
+                          <li><a class="dropdown-item" href="#">Dropdown 4</a></li>
+                            </ul>
+                          </div>
+                          
+                          <li><a class="dropdown-item" href="#">Dropdown 1</a></li>
+                          <li><a class="dropdown-item" href="#">Dropdown 2</a></li>
+                          <li><a class="dropdown-item" href="#">Dropdown 3</a></li>
+                          <li><a class="dropdown-item" href="#">Dropdown 4</a></li>
+                        </ul>
+                      </div>
+                    
                     <li class="nav-item"><a  class="nav-link text-light" href="#contact" >Contact</a></li>
                    </ul>
                 </div> 
@@ -64,8 +88,8 @@
     <section id="about" class="about section m-5">
 
       <!-- Section Title -->
-      <div class="container section-title  d-flex justify-content-center" >
-        <h2>ABOUT US</h2>
+      <div class="container section-title  d-flex justify-content-center " >
+        <h1 class="fs-2 fw-bold text-secondary fst-italic">ABOUT US</h1>
       </div><!-- End Section Title -->
 
       <div class="container">
@@ -200,7 +224,7 @@
 
       <!-- Section Title -->
       <div class="container section-title">
-        <h2 class="d-flex justify-content-center my-5">Services</h2>
+        <h1 class="d-flex justify-content-center my-5 fs-2 fw-bold text-secondary fst-italic">SERVICES</h1>
         <p class="d-flex justify-content-center pb-5">Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
       </div><!-- End Section Title -->
     
@@ -254,19 +278,19 @@
         </div>
       </div>
     
-      <section id="call-to-action" class="call-to-action section dark-background">
+      <section id="call-to-action" class="call-to-action section dark-background mt-5">
         <div class="container">
           <div class="row">
             <!-- Text Content -->
             <div class="col-12 col-xl-9 text-center text-xl-start">
               <h1 class="mt-5 pt-5 text-light fst-italic">Call To Action</h1>
-              <p class="pt-4 mt-3 fs-5 text-light fst-italic">
+              <p class="pt-4 mt-3 fs-4 text-light fst-italic">
                 Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
               </p>
             </div>
             <!-- Button -->
-            <div class="col-12 col-xl-3 cta-btn-container text-center mt-5 pt-3">
-              <a href="#"  id="call" class="btn text-light fst-italic fs-4 py-3 px-4">
+            <div class="col-12 col-xl-3 cta-btn-container text-center mt-3">
+              <a href="#"  id="call" class="btn text-light fst-italic fs-5 p-1 px-4">
                 Call action
               </a>
             </div>
@@ -276,22 +300,23 @@
       <section id="team" class="team section">
         <!-- Section Title -->
         <div class="container section-title">
-          <h2 class="d-flex justify-content-center my-5">Team</h2>
-          <p class="text-center">Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+          <h1 class="d-flex justify-content-center my-5 fs-2 fw-bold text-secondary fst-italic">TEAM</h1>
+          <p class="text-center mb-4">Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
         </div><!-- End Section Title -->
-        
+      
         <div class="container">
           <div class="row gy-4">
-      
             <!-- Team Member 1 -->
             <div class="col-sm-12 col-md-6 col-lg-6">
               <div class="card">
-                <div class="card-body d-flex align-items-center">
-                  <div class="pic">
-                    <!-- Rounded image on the left side -->
-                    <img src="team-1.jpg" class="img-fluid rounded-circle my-1" alt="Walter White" style="width: 150px; height: 140px; object-fit: cover;">
-                  </div>
-                  <div class="member-info ms-3">
+                <div class="card-body d-flex flex-column flex-md-row align-items-center">
+                  <!-- Image -->
+                  <img src="team-1.jpg" 
+                       class="img-fluid rounded-circle my-3 my-md-0 mx-auto mx-md-0 d-block" 
+                       alt="Walter White" 
+                       style="width: 150px; height: 150px; object-fit: cover;">
+                  <!-- Member Info -->
+                  <div class="member-info ms-md-3 text-center text-md-start">
                     <h4>Walter White</h4>
                     <span>Chief Executive Officer</span>
                     <p class="pb-3">Explicabo voluptatem mollitia et repellat qui dolorum quasi</p>
@@ -306,15 +331,17 @@
               </div>
             </div><!-- End Team Member -->
       
+            <!-- Repeat the same structure for other team members -->
+      
             <!-- Team Member 2 -->
             <div class="col-sm-12 col-md-6 col-lg-6">
               <div class="card">
-                <div class="card-body d-flex align-items-center">
-                  <div class="pic">
-                    <!-- Rounded image on the left side -->
-                    <img src="team-2.jpg" class="img-fluid rounded-circle my-1" alt="Sarah Johnson" style="width: 150px; height: 140px; object-fit: cover;">
-                  </div>
-                  <div class="member-info ms-3">
+                <div class="card-body d-flex flex-column flex-md-row align-items-center">
+                  <img src="team-2.jpg" 
+                       class="img-fluid rounded-circle my-3 my-md-0 mx-auto mx-md-0 d-block" 
+                       alt="Sarah Johnson" 
+                       style="width: 150px; height: 150px; object-fit: cover;">
+                  <div class="member-info ms-md-3 text-center text-md-start">
                     <h4>Sarah Jhonson</h4>
                     <span>Product Manager</span>
                     <p class="pb-3">Aut maiores voluptates amet et quis praesentium qui senda para</p>
@@ -329,15 +356,14 @@
               </div>
             </div><!-- End Team Member -->
       
-            <!-- Team Member 3 -->
             <div class="col-sm-12 col-md-6 col-lg-6">
               <div class="card">
-                <div class="card-body d-flex align-items-center">
-                  <div class="pic">
-                    <!-- Rounded image on the left side -->
-                    <img src="team-3.jpg" class="img-fluid rounded-circle my-1" alt="William Anderson" style="width: 150px; height: 140px; object-fit: cover;">
-                  </div>
-                  <div class="member-info ms-3">
+                <div class="card-body d-flex flex-column flex-md-row align-items-center">
+                  <img src="team-3.jpg" 
+                       class="img-fluid rounded-circle my-3 my-md-0 mx-auto mx-md-0 d-block" 
+                       alt="William Anderson" 
+                       style="width: 150px; height: 150px; object-fit: cover;">
+                  <div class="member-info ms-md-3 text-center text-md-start">
                     <h4>William Anderson</h4>
                     <span>CTO</span>
                     <p class="pb-3">Quisquam facilis cum velit laborum corrupti fuga rerum quia</p>
@@ -351,16 +377,15 @@
                 </div>
               </div>
             </div><!-- End Team Member -->
-      
-            <!-- Team Member 4 -->
+                    <!-- Team Member 4 -->
             <div class="col-sm-12 col-md-6 col-lg-6">
               <div class="card">
-                <div class="card-body d-flex align-items-center">
-                  <div class="pic">
-                    <!-- Rounded image on the left side -->
-                    <img src="team-4.jpg" class="img-fluid rounded-circle my-1" alt="Amanda Jepson" style="width: 150px; height: 140px; object-fit: cover;">
-                  </div>
-                  <div class="member-info ms-3">
+                <div class="card-body d-flex flex-column flex-md-row align-items-center">
+                  <img src="team-4.jpg" 
+                       class="img-fluid rounded-circle my-3 my-md-0 mx-auto mx-md-0 d-block" 
+                       alt="Amanda Jepson" 
+                       style="width: 150px; height: 150px; object-fit: cover;">
+                  <div class="member-info ms-md-3 text-center text-md-start">
                     <h4>Amanda Jepson</h4>
                     <span>Accountant</span>
                     <p class="pb-3">Dolorum tempora officiis odit laborum officiis et et accusamus</p>
@@ -374,11 +399,60 @@
                 </div>
               </div>
             </div><!-- End Team Member -->
-      
+            
           </div>
         </div>
+        <!-- Team Member 3 -->
+
       </section>
       
+      <section id="faq-2" class="faq-2 section bg-white ">
+
+        <!-- Section Title -->
+        <div class="container section-title">
+          <h2 class="fs-1 text-secondary my-5 pt-3 d-flex justify-content-center">Frequently Asked Questions</h2>
+          <p class="text-align-center">Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+        </div><!-- End Section Title -->
+          <!--In this part-->
+          <div class="container accordion" id="accordionPanelsStayOpenExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                  Accordion Item #1
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+                <div class="accordion-body">
+                  <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                  Accordion Item #2
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+                <div class="accordion-body">
+                  <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                  Accordion Item #3
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+                <div class="accordion-body">
+                  <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                </div>
+              </div>
+            </div>
+          </div>
+     </section>
       
   </main>
 </body>
