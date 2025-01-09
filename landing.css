@@ -18,10 +18,30 @@
   .read-more{
     border:2px solid rgb(0, 217, 255);
     padding:10px 25px;
-    border-radius:8px;
+    border-radius:20px;
     text-decoration:none;
   }
-  #why-us{
+  #why-us,.services{
     background-color:rgb(240, 240, 240);
+  }
+  .about-arrow{
+    color:hsl(238, 50%, 20%);
+    padding-right: 5px;
+  }
+  progressbar{
+    background-color: blue;
+  }
+  #call-to-action{
+    background-color: hsla(229, 100%, 59%, 0.768);
+    height: 485px;
+    display:flex;
+    justify-content: center;
+    border:2px solid white;
+  }
+  #call{
+    border:2px solid white;
+    padding:5px;
+    border-radius:30px;
+    text-decoration:none;
   }
   

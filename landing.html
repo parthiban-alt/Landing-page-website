@@ -18,7 +18,7 @@
             <div class="container">
                     <a class="text-light text-decoration-none " href="#"><h1>PARTHIBAN S</h1></a>
                     <!--Navbar icon in this field is modified to button-->
-                    <button class="navbar-toggler text-light" type="button "  data-bs-toggle="collapse" data-bs-target="#navbarNav"><span class="navbar-toggler-icon"></span></button>
+                    <button class="navbar-toggler text-light" type="button "  data-bs-toggle="collapse" data-bs-target="#navbarNav"><span class="navbar-toggler-icon "></span></button>
                 <div class="collapse navbar-collapse" id="navbarNav">
                   <ul class="navbar-nav ms-auto" >
                     <li ><a  href="#hero" class="active nav-link text-light">Home</a></li>
@@ -64,15 +64,15 @@
     <section id="about" class="about section m-5">
 
       <!-- Section Title -->
-      <div class="container section-title aos-init aos-animate d-flex justify-content-center" data-aos="fade-up">
-        <h2>About Us</h2>
+      <div class="container section-title  d-flex justify-content-center" >
+        <h2>ABOUT US</h2>
       </div><!-- End Section Title -->
 
       <div class="container">
 
         <div class="row gy-4 mt-5">
 
-          <div class="col-lg-6 content aos-init aos-animate " data-aos="fade-up" data-aos-delay="100">
+          <div class="col-lg-6 content ">
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
               magna aliqua.
@@ -99,50 +99,287 @@
 
           <div class="col-lg-7 d-flex flex-column justify-content-center order-2 order-lg-1">
 
-            <div class="content px-xl-5 aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
-              <h3><span>Eum ipsam laborum deleniti </span><strong>velit pariatur architecto aut nihil</strong></h3>
+            <div class="content px-xl-5 ">
+              <h3><span class="text-primary fw-italic fs-3 fst-italic ">Eum ipsam laborum deleniti </span><strong class="text-primary fw-italic fs-2 fst-italic">velit pariatur architecto aut nihil</strong></h3>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit
               </p>
             </div>
-
-            <div class="faq-container px-xl-5 aos-init aos-animate" data-aos="fade-up" data-aos-delay="200">
-
-              <div class="faq-item faq-active">
-
-                <h3><span>01</span> Non consectetur a erat nam at lectus urna duis?</h3>
-                <div class="faq-content">
-                  <p>Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.</p>
+            <div class="accordion container-fluid px-xl-5" id="accordionExample">
+              <div class="accordion-item" >
+                <h4 class="accordion-header" id="headingOne">
+                  <button class="accordion-button  collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                    <span class="text-primary me-2">01</span><h6 class="about-arrow"> Non consectetur a erat nam at lectus urna duis?</h6>
+                  </button>
+                </h4>
+                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <p>Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.</p>
+                  </div>
                 </div>
-                <i class="faq-toggle bi bi-chevron-right"></i>
-              </div><!-- End Faq item-->
-
-              <div class="faq-item">
-                <h3><span>02</span> Feugiat scelerisque varius morbi enim nunc faucibus a pellentesque?</h3>
-                <div class="faq-content">
-                  <p>Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.</p>
+              </div>
+              <div class="accordion-item mt-2 container-fluid px-xl-1">
+                <h2 class="accordion-header" id="headingTwo">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                   <span class="text-primary me-2">02</span> <h6 class="about-arrow"> Feugiat scelerisque varius morbi enim nunc faucibus a pellentesque?</h6>
+                  </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <p>Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.</p>
+                  </div>
                 </div>
-                <i class="faq-toggle bi bi-chevron-right"></i>
-              </div><!-- End Faq item-->
-
-              <div class="faq-item">
-                <h3><span>03</span> Dolor sit amet consectetur adipiscing elit pellentesque?</h3>
-                <div class="faq-content">
-                  <p>Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus pellentesque eu tincidunt. Lectus urna duis convallis convallis tellus. Urna molestie at elementum eu facilisis sed odio morbi quis</p>
+              </div>
+              <div class="accordion-item mt-2 container-fluid px-xl-1">
+                <h2 class="accordion-header" id="headingThree">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                   <span class="text-primary me-2">03</span> <h6 class="about-arrow">  Dolor sit amet consectetur adipiscing elit pellentesque?</h6>
+                  </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse mb-5" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <p>Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.</p>
+                  </div>
                 </div>
-                <i class="faq-toggle bi bi-chevron-right"></i>
-              </div><!-- End Faq item-->
-
-            </div>
-
+              </div>
           </div>
+         
+        </div>
 
           <div class="col-lg-5 order-1 order-lg-2 why-us-img ">
-            <img src="why-us.png" class="img-fluid mt-5" alt=" " >
+            <img src="why-us.png" class="img-fluid my-5" alt=" " >
           </div>
         </div>
       </div>
     </section>
+    <section id="skills" class="skills section py-5">
+      <div class="container">
+        <div class="row align-items-center">
+          <!-- Left Column: Image -->
+          <div class="col-lg-6 mb-4 mb-lg-0 d-flex justify-content-center">
+            <img src="skills.png" class="img-fluid" alt="Skills Illustration">
+          </div>
+          <!-- Right Column: Skills Content -->
+          <div class="col-lg-6">
+            <h3 class="fw-bold fst-italic text-primary">Voluptatem dignissimos provident quasi corporis voluptas</h3>
+            <p class="fst-italic">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+            <!-- Skills Progress Bars -->
+            <div class="skills-content">
+              <div class="progress mb-3">
+                <span class="skill d-flex justify-content-between"><strong>HTML</strong> <i class="val">100%</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar bg-primary" role="progressbar" style="width: 100%;" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div>
+              <div class="progress mb-3  ">
+                <span class="skill d-flex justify-content-between"><strong>CSS</strong> <i class="val ">90%</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar bg-success" role="progressbar" style="width: 90%;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div>
+              <div class="progress mb-3">
+                <span class="skill d-flex justify-content-between"><strong>JavaScript</strong> <i class="val">75%</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar bg-warning" role="progressbar" style="width: 75%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div>
+              <div class="progress mb-3">
+                <span class="skill d-flex justify-content-between"><strong>Photoshop</strong> <i class="val">55%</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar bg-danger" role="progressbar" style="width: 55%;" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="services" class="services section light-background py-5">
+
+      <!-- Section Title -->
+      <div class="container section-title">
+        <h2 class="d-flex justify-content-center my-5">Services</h2>
+        <p class="d-flex justify-content-center pb-5">Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+      </div><!-- End Section Title -->
+    
+      <div class="container">
+        <div class="row gy-4">
+    
+          <!-- Service Item 1 -->
+          <div class="col-lg-3 col-md-6 col-12 d-flex">
+            <div class="card w-100">
+              <div class="card-body service-item position-relative text-center">
+                <div class="icon text-primary fs-3 mb-3"><i class="bi bi-activity"></i></div>
+                <h4><a href="#" class="stretched-link text-decoration-none">Lorem Ipsum</a></h4>
+                <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
+              </div>
+            </div>
+          </div><!-- End Service Item -->
+    
+          <!-- Service Item 2 -->
+          <div class="col-lg-3 col-md-6 col-12 d-flex">
+            <div class="card w-100">
+              <div class="card-body service-item position-relative text-center">
+                <div class="icon text-primary fs-3 mb-3"><i class="bi bi-bounding-box-circles"></i></div>
+                <h4><a href="#" class="stretched-link text-decoration-none">Sed ut perspici</a></h4>
+                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
+              </div>
+            </div>
+          </div><!-- End Service Item -->
+    
+          <!-- Service Item 3 -->
+          <div class="col-lg-3 col-md-6 col-12 d-flex">
+            <div class="card w-100">
+              <div class="card-body service-item position-relative text-center">
+                <div class="icon text-primary fs-3 mb-3"><i class="bi bi-calendar4-week"></i></div>
+                <h4><a href="#" class="stretched-link text-decoration-none">Magni Dolores</a></h4>
+                <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>
+              </div>
+            </div>
+          </div><!-- End Service Item -->
+    
+          <!-- Service Item 4 -->
+          <div class="col-lg-3 col-md-6 col-12 d-flex">
+            <div class="card w-100">
+              <div class="card-body service-item position-relative text-center">
+                <div class="icon text-primary fs-3 mb-3"><i class="bi bi-broadcast"></i></div>
+                <h4><a href="#" class="stretched-link text-decoration-none">Nemo Enim</a></h4>
+                <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
+              </div>
+            </div>
+          </div><!-- End Service Item -->
+    
+        </div>
+      </div>
+    
+      <section id="call-to-action" class="call-to-action section dark-background">
+        <div class="container">
+          <div class="row">
+            <!-- Text Content -->
+            <div class="col-12 col-xl-9 text-center text-xl-start">
+              <h1 class="mt-5 pt-5 text-light fst-italic">Call To Action</h1>
+              <p class="pt-4 mt-3 fs-5 text-light fst-italic">
+                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+              </p>
+            </div>
+            <!-- Button -->
+            <div class="col-12 col-xl-3 cta-btn-container text-center mt-5 pt-3">
+              <a href="#"  id="call" class="btn text-light fst-italic fs-4 py-3 px-4">
+                Call action
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="team" class="team section">
+        <!-- Section Title -->
+        <div class="container section-title">
+          <h2 class="d-flex justify-content-center my-5">Team</h2>
+          <p class="text-center">Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+        </div><!-- End Section Title -->
+        
+        <div class="container">
+          <div class="row gy-4">
+      
+            <!-- Team Member 1 -->
+            <div class="col-sm-12 col-md-6 col-lg-6">
+              <div class="card">
+                <div class="card-body d-flex align-items-center">
+                  <div class="pic">
+                    <!-- Rounded image on the left side -->
+                    <img src="team-1.jpg" class="img-fluid rounded-circle my-1" alt="Walter White" style="width: 150px; height: 140px; object-fit: cover;">
+                  </div>
+                  <div class="member-info ms-3">
+                    <h4>Walter White</h4>
+                    <span>Chief Executive Officer</span>
+                    <p class="pb-3">Explicabo voluptatem mollitia et repellat qui dolorum quasi</p>
+                    <div class="social">
+                      <a href="#"><i class="bi bi-twitter"></i></a>
+                      <a href="#"><i class="bi bi-facebook"></i></a>
+                      <a href="#"><i class="bi bi-instagram"></i></a>
+                      <a href="#"><i class="bi bi-linkedin"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div><!-- End Team Member -->
+      
+            <!-- Team Member 2 -->
+            <div class="col-sm-12 col-md-6 col-lg-6">
+              <div class="card">
+                <div class="card-body d-flex align-items-center">
+                  <div class="pic">
+                    <!-- Rounded image on the left side -->
+                    <img src="team-2.jpg" class="img-fluid rounded-circle my-1" alt="Sarah Johnson" style="width: 150px; height: 140px; object-fit: cover;">
+                  </div>
+                  <div class="member-info ms-3">
+                    <h4>Sarah Jhonson</h4>
+                    <span>Product Manager</span>
+                    <p class="pb-3">Aut maiores voluptates amet et quis praesentium qui senda para</p>
+                    <div class="social">
+                      <a href="#"><i class="bi bi-twitter"></i></a>
+                      <a href="#"><i class="bi bi-facebook"></i></a>
+                      <a href="#"><i class="bi bi-instagram"></i></a>
+                      <a href="#"><i class="bi bi-linkedin"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div><!-- End Team Member -->
+      
+            <!-- Team Member 3 -->
+            <div class="col-sm-12 col-md-6 col-lg-6">
+              <div class="card">
+                <div class="card-body d-flex align-items-center">
+                  <div class="pic">
+                    <!-- Rounded image on the left side -->
+                    <img src="team-3.jpg" class="img-fluid rounded-circle my-1" alt="William Anderson" style="width: 150px; height: 140px; object-fit: cover;">
+                  </div>
+                  <div class="member-info ms-3">
+                    <h4>William Anderson</h4>
+                    <span>CTO</span>
+                    <p class="pb-3">Quisquam facilis cum velit laborum corrupti fuga rerum quia</p>
+                    <div class="social">
+                      <a href="#"><i class="bi bi-twitter"></i></a>
+                      <a href="#"><i class="bi bi-facebook"></i></a>
+                      <a href="#"><i class="bi bi-instagram"></i></a>
+                      <a href="#"><i class="bi bi-linkedin"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div><!-- End Team Member -->
+      
+            <!-- Team Member 4 -->
+            <div class="col-sm-12 col-md-6 col-lg-6">
+              <div class="card">
+                <div class="card-body d-flex align-items-center">
+                  <div class="pic">
+                    <!-- Rounded image on the left side -->
+                    <img src="team-4.jpg" class="img-fluid rounded-circle my-1" alt="Amanda Jepson" style="width: 150px; height: 140px; object-fit: cover;">
+                  </div>
+                  <div class="member-info ms-3">
+                    <h4>Amanda Jepson</h4>
+                    <span>Accountant</span>
+                    <p class="pb-3">Dolorum tempora officiis odit laborum officiis et et accusamus</p>
+                    <div class="social">
+                      <a href="#"><i class="bi bi-twitter"></i></a>
+                      <a href="#"><i class="bi bi-facebook"></i></a>
+                      <a href="#"><i class="bi bi-instagram"></i></a>
+                      <a href="#"><i class="bi bi-linkedin"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div><!-- End Team Member -->
+      
+          </div>
+        </div>
+      </section>
+      
+      
   </main>
 </body>
 </html>
