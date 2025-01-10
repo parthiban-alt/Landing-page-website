@@ -21,7 +21,7 @@
     border-radius:20px;
     text-decoration:none;
   }
-  #why-us,.services{
+  #why-us,.services,.footer-newsletter{
     background-color:rgb(240, 240, 240);
   }
   .about-arrow{
@@ -44,6 +44,20 @@
     border-radius:30px;
     text-decoration:none;
   }
+  .footer-top{
+    background-color: white;
+  }
+ .service-button{
+   color:white;
+   background-color: rgba(0, 145, 255, 0.797);
+   border-radius: 10px;
+   padding: 5px;
+ }
+ .newsletter-button{
+  background-color: rgba(0, 145, 255, 0.797);
+  color:white;
+  border-radius: 10px;
+ }
 
   
   
