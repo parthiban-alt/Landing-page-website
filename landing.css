@@ -33,7 +33,7 @@
   }
   #call-to-action{
     background-color: hsla(229, 100%, 59%, 0.768);
-    height: 500px;
+    height: 400px;
     display:flex;
     justify-content: center;
     border:2px solid white;
@@ -58,6 +58,10 @@
   color:white;
   border-radius: 10px;
  }
+ #Team-member{
+  box-shadow: 8px 8px 10px 0px rgba(0,0,0,0.2);
+ }
+ 
 
   
   
