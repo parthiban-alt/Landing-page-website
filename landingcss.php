@@ -98,7 +98,7 @@
   left: 0;
   width: 100%;
   height: 2px; /* Thickness of the border */
-  background: linear-gradient(to right, #ccc 20%,green 50%, #ccc 80%);
+  background: linear-gradient(to right, #ccc 20%, blue 50%, #ccc 80%);
 }
  
 

@@ -1,35 +1,33 @@
 <?php
-echo "test show";
-$n=$_POST['name'];
-$e=$_POST['email'];
-$s=$_POST['subject'];
-$m=$_POST['message'];
-
+ //echo "test show";
+ $name = isset($_POST['name']);
+ $email = isset($_POST['email']);
+ $subject = isset($_POST['subject']);
+ $message = isset($_POST['message']);
+ 
 
 $servername = "localhost";
 $username = "root";
 $password = "";
-$dbname = "contact";
+$dbname = "user";
 
 // Create connection
-$con= new mysqli ($servername, $username, $password, $dbname);
+$con = new mysqli($servername, $username, $password,$dbname);
+
 // Check connection
 if ($con->connect_error) {
   die("Connection failed: " . $con->connect_error);
 }
 echo "Connected successfully";
 
-
-$sql = "INSERT INTO details(User_Name,User_Email,User_Subject,User_Message) values('$n','$e','$s','$m')";
-
-
+// $con=mysqli_connect("localhost","root","","employee");
+$sql="INSERT INTO userdetail(user_name,user_email,user_subject,user_message) values('$name','$email','$subject','$message')";
 $r=mysqli_query($con,$sql);
 if($r)
 {
-    echo "Employee details added Successfully";
+    echo "User details added Successfully";
 }
 else{
-    echo "Employee details not added";
+    echo "User details not added";
 }
-
 ?>
