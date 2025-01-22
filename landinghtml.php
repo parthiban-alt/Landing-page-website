@@ -542,7 +542,7 @@
         
               <!-- Right Side Section -->
               <div class="card col-lg-6" style="border-top: 5px solid #47B2E4;border-bottom: 5px #47B2E4 solid;; padding: 20px;">
-                <form action="landing.php" method="post" id="form">
+                <form action="submitform.php" method="post" id="form">
                   <div class="row gy-4">
                     <div class="col-md-6">
                       <label for="name-field" class="pb-2 mt-3">Your Name</label>
